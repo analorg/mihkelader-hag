@@ -1,5 +1,5 @@
 # hag
-Anagram finder
+Anagram finder for a competition
 
 Linux program to find anagrams from http://www.eki.ee/tarkvara/wordlist/lemmad.zip
 
@@ -9,6 +9,10 @@ Best used with multiple CPUs. Standard OpenMP environment variables can be used 
 
 ## Syntax
 `hag <path-to-lemmad.txt> <word-to-find-anagrams-for>`
+  
+## Output
+<algorithm run time in microseconds>[,anagram].....
+`1822,sitkuma,kitsuma,tiksuma,timukas,tuiskam,mutikas`
   
 ## Building
 gcc with O3, OpenMP and profiling recommended
