@@ -11,7 +11,8 @@ Best used with multiple CPUs. Standard OpenMP environment variables can be used 
 `hag <path-to-lemmad.txt> <word-to-find-anagrams-for>`
   
 ## Output
-<algorithm run time in microseconds>[,anagram].....
+`<algorithm run time in microseconds>[,anagram]...`
+
 `1822,sitkuma,kitsuma,tiksuma,timukas,tuiskam,mutikas`
   
 ## Building
